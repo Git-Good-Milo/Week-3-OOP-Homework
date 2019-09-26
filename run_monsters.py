@@ -13,8 +13,8 @@ print(my_monster1.cuteness)
 
 print(my_monster1.scare())
 print(my_monster1.eat())
-print(my_monster1.morph())
-print(my_monster1.sounds())
+print(my_monster1.morph(transformation='Super Wolf'))
+print(my_monster1.sounds(special_sound='Octopus'))
 
 # Second Monster
 
@@ -47,7 +47,7 @@ print(my_monster3.cuteness)
 
 # Methods
 
-print(my_monster3.scare())
+print(my_monster3.scare(default_scare= 'Fear me petty creatures!'))
 print(my_monster3.eat())
 print(my_monster3.morph())
 print(my_monster3.sounds())
